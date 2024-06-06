@@ -123,6 +123,7 @@ body{
     border-radius: 30px;
     text-decoration: none;
     transition: all 0.8s;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -174,6 +175,7 @@ body{
 .text-btn-secondory {
     padding: 12px 0px;
     transition: all 0.8s;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

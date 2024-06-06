@@ -190,6 +190,7 @@ label {
     z-index: 2;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
     height: 40px;
     margin: auto;
     padding-top: 10px;
