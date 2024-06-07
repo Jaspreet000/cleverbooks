@@ -1060,15 +1060,6 @@
     <script src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/js/webflow.dd58a4b03.js"
         type="text/javascript"></script>
     <script>
-        <!--Script For Scroll on Top btn-->
-        $(document).ready(function () {
-            $(".scroll-top").click(function () {
-                $("html, body").animate({
-                    scrollTop: 0
-                }, "slow");
-                return false;
-            });
-        });
 
         // < !--Scripts For sliders-->
         $(document).ready(function () {
@@ -1101,93 +1092,7 @@
             });
         });
 
-        $(document).ready(function () {
-            $('.hp-slider-collection').slick({
-                centerMode: false,
-                dots: false,
-                infinite: true,
-                arrows: false,
-                speed: 500,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
-            $('.sl-arrow-left').click(function () {
-                $(this).closest(".ct-slider").find('.hp-slider-collection').slick('slickPrev');
-            })
-
-            $('.sl-arrow-right').click(function () {
-                $(this).closest(".ct-slider").find('.hp-slider-collection').slick('slickNext');
-            })
-        });
-
-        $(document).ready(function () {
-            $('.gc-slider').slick({
-                centerMode: false,
-                dots: true,
-                infinite: true,
-                arrows: false,
-                touchThreshold: 100,
-                speed: 500,
-                slidesToShow: 1,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
-            $('.fb-left-arrow').click(function () {
-                $(this).closest(".gc-slider-wrapper").find('.gc-slider').slick('slickPrev');
-            })
-
-            $('.fb-right-arrow').click(function () {
-                $(this).closest(".gc-slider-wrapper").find('.gc-slider').slick('slickNext');
-            })
-        });
-
+ 
     </script>
 </body>
 </html>
