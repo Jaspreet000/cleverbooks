@@ -965,19 +965,6 @@
             </div>
             <div class="button-wrapper margin-top _70px"><a href="/product" class="btn-secondory b-white">View all
                     features</a></div>
-            <div class="learn-more-btn-script w-embed w-script">
-                <script>
-                    document.addEventListener('DOMContentLoaded', function () {
-                        $(document).ready(function () {
-
-                            $('body').on('click', '.tab-btn[data-link-url]', function () {
-                                location.href = window.location.origin + "" + $(this).attr('data-link-url');
-                            });
-
-                        });
-                    });
-                </script>
-            </div>
         </section>
         <div class="footer-section bg-black">
             <div class="footer-header-section padding-top-bottom-120 footer-no-top-padding">
@@ -1038,40 +1025,5 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/js/webflow.dd58a4b03.js"
         type="text/javascript"></script>
-    <script>
-
-        // < !--Scripts For sliders-->
-        $(document).ready(function () {
-            $('.blog-list-wrapper').slick({
-                centerMode: false,
-                dots: true,
-                infinite: true,
-                arrows: false,
-                speed: 500,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 550,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
-        });
-
- 
-    </script>
 </body>
 </html>
